@@ -1,7 +1,11 @@
-# Lua Language Server Addon Template
-This is a template for an [addon](https://github.com/LuaLS/lua-language-server/wiki/Addons) that can be used by the [Lua Language Server](https://github.com/LuaLS/lua-language-server).
+# Polytoria LuaLS Addon
+This addon provides you Lua-Language-Server typings for Polytoria.
 
-## Publishing to Addon Manager
-The [addon manager](https://github.com/LuaLS/lua-language-server/discussions/1965) for VS Code allows users to easily install and manage their addons. The addons are pulled from [LLS-Addons](https://github.com/LuaLS/LLS-Addons).
+## Installation
+You can use the addon manager by following these instructions: https://luals.github.io/wiki/addons/#installing-addons
 
-To add your addon to the addon manager, please read the [README for LLS-Addons](https://github.com/LuaLS/LLS-Addons#readme).
+## Usage
+Enable the addon using the following instructions: https://luals.github.io/wiki/addons/#addon-manager
+
+## Credits
+Massive shoutout to the [contributors of the Polytoria Docs](https://docs.polytoria.com/contributors), most information was taken from there.
