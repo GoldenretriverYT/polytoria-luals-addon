@@ -1,0 +1,37 @@
+---@meta
+
+---@enum TweenStyle
+TweenStyle = {
+    easeInBack = 0,
+    easeInBounce = 1,
+    easeInCirc = 2,
+    easeInCubic = 3,
+    easeInElastic = 4,
+    easeInExpo = 5,
+    easeInOutBack = 6,
+    easeInOutBounce = 7,
+    easeInOutCirc = 8,
+    easeInOutCubic = 9,
+    easeInOutElastic = 10,
+    easeInOutExpo = 11,
+    easeInOutQuad = 12,
+    easeInOutQuart = 13,
+    easeInOutQuint = 14,
+    easeInOutSine = 15,
+    easeInQuad = 16,
+    easeInQuart = 17,
+    easeInQuint = 18,
+    easeInSine = 19,
+    easeOutBack = 20,
+    easeOutBounce = 21,
+    easeOutCirc = 22,
+    easeOutCubic = 23,
+    easeOutElastic = 24,
+    easeOutExpo = 25,
+    easeOutQuad = 26,
+    easeOutQuart = 27,
+    easeOutQuint = 28,
+    easeOutSine = 29,
+    linear = 30,
+    punch = 31
+}

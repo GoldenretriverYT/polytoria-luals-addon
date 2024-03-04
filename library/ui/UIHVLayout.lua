@@ -1,0 +1,16 @@
+---@meta
+
+---@class UIHVLayout: UIField
+---@field ChildAlignment TextAnchor
+---@field ChildControlHeight boolean
+---@ield ChildControlWidth boolean
+---@field ChildForceExpandHeight boolean
+---@field ChildForceExpandWidth boolean
+---@field ChildScaleHeight boolean
+---@field ChildScaleWidth boolean
+---@field PaddingBottom number
+---@field PaddingLeft number
+---@field PaddingRight number
+---@field PaddingTop number
+---@field ReverseAlignment boolean
+---@field Spacing number

@@ -1,0 +1,13 @@
+---@meta
+
+---@class UIField: Instance
+---UIField is the base class of all UI classes.
+---
+---This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.
+---@field PivotPoint Vector2 The pivot point of the UI element.
+---@field PositionOffset Vector2 The offset of the UI element.
+---@field PositionRelative Vector2 The relative position of the UI element to its parent.
+---@field Rotation number The rotation of the UI element.
+---@field SizeOffset Vector2 The offset of the UI element.
+---@field SizeRelative Vector2 The relative size of the UI element to its parent.
+---@field Visible boolean Whether the UI element is visible.
