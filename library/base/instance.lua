@@ -45,6 +45,7 @@ Instance.TouchEnded = nil
 
 --- Create a new instance.
 --- @param typeOfInstance string The type of instance to create.
+--- @return any
 function Instance.New(typeOfInstance) end
 
 --- Clones the instance
