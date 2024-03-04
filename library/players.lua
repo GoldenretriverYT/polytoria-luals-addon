@@ -12,8 +12,7 @@ PlayerEvent = {}
 ---Connects a callback to the event.
 ---@param callback fun(player: Player)
 ---@return nil
-function PlayerEvent:Connect(callback)
-end
+function PlayerEvent:Connect(callback) end
 
 ---@class ChatEvent
 ---@field message string
@@ -22,8 +21,7 @@ ChatEvent = {}
 ---Connects a callback to the event.
 ---@param callback fun(message: string)
 ---@return nil
-function ChatEvent:Connect(callback)
-end
+function ChatEvent:Connect(callback) end
 
 --[[
     SECTION
@@ -48,19 +46,16 @@ Players.PlayerRemoved = nil
 --- Returns a Player instance from the given username.
 ---@param username string
 ---@return Player
-function Players:GetPlayer(username)
-end
+function Players:GetPlayer(username) end
 
 --- Returns a Player instance from the given user ID.
 ---@param userId number
 ---@return Player
-function Players:GetPlayerByID(userId)
-end
+function Players:GetPlayerByID(userId) end
 
 -- Returns all players in the game.
 ---@return Player[]
-function Players:GetPlayers()
-end
+function Players:GetPlayers() end
 
 --[[
     SECTION 
@@ -110,24 +105,20 @@ Player.Respawned = nil
 --- Drops the tool the player is currently holding.
 ---
 --- **Can only be accessed from a server script.**
-function Player:DropTools()
-end
+function Player:DropTools() end
 
 --- Kicks the player from the server with an optional message.
 ---
 --- **Can only be accessed from a server script.**
 ---@overload fun(self: Player, reason: string)
-function Player:Kick()
-end
+function Player:Kick() end
 
 --- Loads the specified user ID's avatar on the player's character.
 ---@param userId number
-function Player:LoadAppearance(userId)
-end
+function Player:LoadAppearance(userId) end
 
 --- Clears the players appareance. This will set their appareance to a gray avatar.
-function Player:ClearAppearance()
-end
+function Player:ClearAppearance() end
 
 --- Checks if the player owns an item.
 ---
@@ -135,23 +126,18 @@ end
 --- There is a limit of 30 req/min/server.
 ---@param assetId number
 ---@param callback fun(error: string, owns: boolean)
-function Player:OwnsAsset(assetId, callback)
-end
+function Player:OwnsAsset(assetId, callback) end
 
 --- Resets the players appearance to their original avatar.
-function Player:ResetAppearance()
-end
+function Player:ResetAppearance() end
 
 --- Respawns the player.
-function Player:Respawn()
-end
+function Player:Respawn() end
 
 --- Sit the player in the specified seat.
 ---@param seat Seat
-function Player:Sit(seat)
-end
+function Player:Sit(seat) end
 
 --- Unsits the player.
 --- @overload fun(self: Player, addForce: boolean)
-function Player:Unsit()
-end
+function Player:Unsit() end

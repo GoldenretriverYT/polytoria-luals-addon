@@ -15,10 +15,8 @@ MeshPart = {}
 
 --- Moves the part to the specified position while keeping physics in mind.
 ---@param position Vector3
-function MeshPart:MovePosition(position)
-end
+function MeshPart:MovePosition(position) end
 
 --- Rotates the part to the specified rotation while keeping physics in mind.
 ---@param rotation Vector3
-function MeshPart:MoveRotation(rotation)
-end
+function MeshPart:MoveRotation(rotation) end

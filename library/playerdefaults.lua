@@ -17,5 +17,4 @@ PlayerDefaults = {}
 
 --- Resets the specified player's properties to their default values.
 ---@param player Player
-function PlayerDefaults:LoadDefaults(player)
-end
+function PlayerDefaults:LoadDefaults(player) end

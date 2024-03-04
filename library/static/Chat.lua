@@ -6,11 +6,9 @@ Chat = {}
 
 ---Sends a message to all players.
 ---@param message string The message to send.
-function Chat:BroadcastMessage(message)
-end
+function Chat:BroadcastMessage(message) end
 
 ---Sends a message to a specific player.
 ---@param message string The message to send.
 ---@param player Player The player to send the message to.
-function Chat:UnicastMessage(message, player)
-end
+function Chat:UnicastMessage(message, player) end

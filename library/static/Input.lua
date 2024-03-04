@@ -6,8 +6,7 @@ KeyEvent = {}
 
 ---Connects a callback to the key pressed event.
 ---@param callback fun(key: string)
-function KeyEvent:Connect(callback)
-end
+function KeyEvent:Connect(callback) end
 
 ---@class Input
 ---Input is a class used for retrieving user input data, such as the mouse and keyboard.
@@ -26,30 +25,24 @@ Input.KeyUp = nil
 
 ---@param position Vector3
 ---@return Vector3
-function Input:ScreenToViewportPoint(position)
-end
+function Input:ScreenToViewportPoint(position) end
 
 ---@param position Vector3
 ---@return Vector3
-function Input:ScreenToWorldPoint(position)
-end
+function Input:ScreenToWorldPoint(position) end
 
 ---@param position Vector3
 ---@return Vector3
-function Input:ViewportToScreenPoint(position)
-end
+function Input:ViewportToScreenPoint(position) end
 
 ---@param position Vector3
 ---@return Vector3
-function Input:ViewportToWorldPoint(position)
-end
+function Input:ViewportToWorldPoint(position) end
 
 ---@param position Vector3
 ---@return Vector3
-function Input:WorldToScreenPoint(position)
-end
+function Input:WorldToScreenPoint(position) end
 
 ---@param position Vector3
 ---@return Vector3
-function Input:WorldToViewportPoint(position)
-end
+function Input:WorldToViewportPoint(position) end

@@ -25,5 +25,4 @@ Tool.Unequipped = nil
 ---
 --- Valid Animations: "slash", "eat", "drink"
 ---@param animation string
-function Tool:PlayAnimation(animation)
-end
+function Tool:PlayAnimation(animation) end

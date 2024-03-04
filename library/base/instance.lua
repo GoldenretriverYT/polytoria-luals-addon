@@ -94,9 +94,6 @@ function Instance:GetChildren() end
 --- @return Instance[]
 function Instance:GetChildrenOfClass(className) end
 
-
-
-
 ---@class DynamicInstance: Instance
 --- DynamicInstance is the base class where all objects with a position, rotation and scale derive from.
 --- This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.

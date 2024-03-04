@@ -20,10 +20,8 @@ Part = {}
 
 --- Moves the part to the specified position while keeping physics in mind.
 ---@param position Vector3
-function Part:MovePosition(position)
-end
+function Part:MovePosition(position) end
 
 --- Rotates the part to the specified rotation while keeping physics in mind.
 ---@param rotation Vector3
-function Part:MoveRotation(rotation)
-end
+function Part:MoveRotation(rotation) end

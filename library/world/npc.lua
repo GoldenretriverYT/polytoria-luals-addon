@@ -25,9 +25,7 @@ NPC.Died = nil
 
 --- Loads the specified user ID's avatar on the NPC's character.
 ---@param userId number
-function NPC:LoadAppearance(userId)
-end
+function NPC:LoadAppearance(userId) end
 
 --- Clears the NPCs appareance. This will set their appareance to a gray avatar.
-function NPC:ClearAppearance()
-end
+function NPC:ClearAppearance() end

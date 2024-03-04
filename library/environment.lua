@@ -16,8 +16,7 @@ Environment = {}
 ---@param force number
 ---@param affectAnchored boolean
 ---@param callback function
-function Environment:CreateExplosion(position, radius, force, affectAnchored, callback)
-end
+function Environment:CreateExplosion(position, radius, force, affectAnchored, callback) end
 
 ---Casts a ray from origin with a specified direction and returns a RayResult for the first hit object.
 ---@param origin Vector3
@@ -25,8 +24,7 @@ end
 ---@param maxDistance number
 ---@param ignoreList Instance[]
 ---@return RayResult
-function Environment:Raycast(origin, direction, maxDistance, ignoreList)
-end
+function Environment:Raycast(origin, direction, maxDistance, ignoreList) end
 
 ---Casts a ray from origin with a specified direction and returns a RayResult array for all hit objects.
 ---@param origin Vector3
@@ -34,5 +32,4 @@ end
 ---@param maxDistance number
 ---@param ignoreList Instance[]
 ---@return RayResult[]
-function Environment:RaycastAll(origin, direction, maxDistance, ignoreList)
-end
+function Environment:RaycastAll(origin, direction, maxDistance, ignoreList) end
