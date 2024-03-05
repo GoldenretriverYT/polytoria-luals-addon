@@ -1,6 +1,6 @@
 ---@meta
 
----@class BaseScript: InstanceOfInstance
+---@class BaseScript: Instance__
 --- BaseScripts are the base classes of all scripts (ScriptInstances, LocalScripts). They can be parented to any instance.
 BaseScript = {}
 

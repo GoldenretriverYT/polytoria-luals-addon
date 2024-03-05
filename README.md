@@ -10,6 +10,12 @@ This addon provides you Lua-Language-Server typings for Polytoria.
 4. Press "add item" and add the path of this repository to it.
 5. You are done! You should now see Polytoria typings in your Lua files.
 
+## Double Underscores
+
+If a type ends with double underscores, it just indicates its an instance of that type. For example, `Instance__` is an instance of the `Instance` type.
+This does not affect your code, this is just to prevent recommendations from showing, for example, ".New" on a `Player` (.New is only valid on the static `Instance` type,
+and not on an instance of `Instance`).
+
 ## Credits
 
 Massive shoutout to the [contributors of the Polytoria Docs](https://docs.polytoria.com/contributors), most information was taken from there.
