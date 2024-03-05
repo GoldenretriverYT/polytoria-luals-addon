@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class RayResult
----@field Instance Instance The instance hit by the raycast.
+---@field Instance InstanceInstance The instance hit by the raycast.
 ---@field Position Vector3 The position the ray made contact at.
 ---@field Distance number The distance between the hit and origin
 ---@field Normal Vector3 The normal of the surface hit.
@@ -86,12 +86,12 @@ function NetMessage:GetColor(key) end
 
 ---Sets a key as an Instance.
 ---@param key string
----@param Instance Instance
+---@param Instance InstanceInstance
 function NetMessage:AddInstance(key, Instance) end
 
 ---Gets the value of an Instance key.
 ---@param key string
----@return Instance
+---@return InstanceInstance
 function NetMessage:GetInstance(key) end
 
 ---@class Color

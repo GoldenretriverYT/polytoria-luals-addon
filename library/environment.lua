@@ -1,6 +1,6 @@
 ---@meta
 
----@class Environment: Instance
+---@class Environment: InstanceInstance
 ---@field FogColor Color The color of the fog. Fog is a visual effect that makes the world look like it is covered in a colored mist.
 ---@field FogEnabled boolean Whether or not fog is enabled.
 ---@field FogStartDistance number The distance from the camera at which fog starts to appear
@@ -22,7 +22,7 @@ function Environment:CreateExplosion(position, radius, force, affectAnchored, ca
 ---@param origin Vector3
 ---@param direction Vector3
 ---@param maxDistance number
----@param ignoreList Instance[]
+---@param ignoreList InstanceInstance[]
 ---@return RayResult
 function Environment:Raycast(origin, direction, maxDistance, ignoreList) end
 
@@ -30,6 +30,6 @@ function Environment:Raycast(origin, direction, maxDistance, ignoreList) end
 ---@param origin Vector3
 ---@param direction Vector3
 ---@param maxDistance number
----@param ignoreList Instance[]
+---@param ignoreList InstanceInstance[]
 ---@return RayResult[]
 function Environment:RaycastAll(origin, direction, maxDistance, ignoreList) end

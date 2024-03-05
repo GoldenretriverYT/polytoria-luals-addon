@@ -1,2 +1,1 @@
----@type Part
-local part = Instance.New("Part")
+local part = Instance.New("Part") --[[@as Part]]

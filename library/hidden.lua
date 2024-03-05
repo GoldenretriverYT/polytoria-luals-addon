@@ -1,4 +1,4 @@
 ---@meta
 
----@class Hidden: Instance
+---@class Hidden: InstanceInstance
 --- Hidden is a service used for hiding instances.

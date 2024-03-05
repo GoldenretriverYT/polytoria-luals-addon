@@ -1,6 +1,6 @@
 ---@meta
 
----@class Camera: Instance
+---@class Camera: InstanceInstance
 --- Camera is a class that represents the local player's camera.
 ---
 --- Only available on the client.

@@ -1,6 +1,6 @@
 ---@meta
 
----@class Lighting: Instance
+---@class Lighting: InstanceInstance
 --- Lighting is responsible for controlling the state of the lighting in the place. It provides many different options for creators to enhance and fine-tune the visuals of their worlds.
 ---
 --- By parenting an ImageSky object to Lighting, you can change the skybox of the world.
