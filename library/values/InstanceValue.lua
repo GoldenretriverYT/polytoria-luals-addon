@@ -1,4 +1,4 @@
 ---@meta
 
 ---@class InstanceValue: ValueBase
----@field Value InstanceInstance
+---@field Value InstanceOfInstance

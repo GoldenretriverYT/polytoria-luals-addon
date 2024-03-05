@@ -5,7 +5,7 @@
 --- This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.
 Instance = {}
 
----@class InstanceInstance
+---@class InstanceOfInstance
 --- Instance is the base class of all classes. Every class derives from it and has all properties, events and functions Instance has.
 --- This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.
 --- This is a instance of the Instance class.
@@ -15,93 +15,93 @@ Instance = {}
 ---@field Name string Specifies the name of an instance.
 ---@field Parent Instance The parent of the instance.
 ---@field Shared table An empty table you can use to hold metadata about anything on any object or player you want. Shared doesn't sync from the client to the server, or from the server to the client.
-InstanceInstance = {}
+InstanceOfInstance = {}
 
 ---@type event
 --- Fires when a child instance is added.
-InstanceInstance.ChildAdded = nil
+InstanceOfInstance.ChildAdded = nil
 
 ---@type event
 --- Fires when a child instance is removed.
-InstanceInstance.ChildRemoved = nil
+InstanceOfInstance.ChildRemoved = nil
 
 ---@type event
 --- Fires when the instance is clicked by the player.
-InstanceInstance.Clicked = nil
+InstanceOfInstance.Clicked = nil
 
 ---@type event
 --- Fires when the mouse enters the instance.
-InstanceInstance.MouseEnter = nil
+InstanceOfInstance.MouseEnter = nil
 
 ---@type event
 --- Fires when the mouse leaves the instance.
-InstanceInstance.MouseLeave = nil
+InstanceOfInstance.MouseLeave = nil
 
 ---@type event
 --- Fires when the instance was touched by another instance.
 ---
 --- **There must be an active collider on the instance for this event to trigger (Part, Player, etc.)**
-InstanceInstance.Touched = nil
+InstanceOfInstance.Touched = nil
 
 ---@type event
 --- Fires when the instance is no longer being touched by another instance.
 ---
 --- **There must be an active collider on the instance for this event to trigger (Part, Player, etc.)**
-InstanceInstance.TouchEnded = nil
+InstanceOfInstance.TouchEnded = nil
 
 --- Create a new instance.
 --- @param typeOfInstance string The type of instance to create.
---- @return InstanceInstance
+--- @return InstanceOfInstance
 function Instance.New(typeOfInstance) end
 
 --- Clones the instance
---- @return InstanceInstance
-function InstanceInstance:Clone() end
+--- @return InstanceOfInstance
+function InstanceOfInstance:Clone() end
 
 --- Destroys the instance
-function InstanceInstance:Destroy() end
+function InstanceOfInstance:Destroy() end
 
 --- Destroys the instance
-function InstanceInstance:Delete() end
+function InstanceOfInstance:Delete() end
 
 --- Returns the parent of the instance (same as accessing .Parent)
---- @return InstanceInstance
-function InstanceInstance:GetParent() end
+--- @return InstanceOfInstance
+function InstanceOfInstance:GetParent() end
 
 --- Sets the parent of the instance (same as setting .Parent)
---- @param parent InstanceInstance
-function InstanceInstance:SetParent(parent) end
+--- @param parent InstanceOfInstance
+function InstanceOfInstance:SetParent(parent) end
 
 --- Returns whether or not the instance is a specified class.
 --- @param className string
 --- @return boolean
-function InstanceInstance:IsA(className) end
+function InstanceOfInstance:IsA(className) end
 
 --- Returns whether or not the instance is a descendant (child, child of child, etc.) of the specified instance.
---- @param ancestor InstanceInstance
+--- @param ancestor InstanceOfInstance
 --- @return boolean
-function InstanceInstance:IsDescendantOf(ancestor) end
+function InstanceOfInstance:IsDescendantOf(ancestor) end
 
 --- Attempts to find the first child instance with the specified name, or nil if not found.
 --- @param name string
---- @return InstanceInstance
-function InstanceInstance:FindChild(name) end
+--- @return InstanceOfInstance
+function InstanceOfInstance:FindChild(name) end
 
 --- Attempts to find the first child instance with the specified class name, or nil if not found.
 --- @param className string
---- @return InstanceInstance
-function InstanceInstance:FindChildByClass(className) end
+--- @return InstanceOfInstance
+function InstanceOfInstance:FindChildByClass(className) end
 
 --- Returns an array of all the children of the instance.
---- @return InstanceInstance[]
-function InstanceInstance:GetChildren() end
+--- @return InstanceOfInstance[]
+function InstanceOfInstance:GetChildren() end
 
 --- Returns an array of all the children instances with the specified class name.
 --- @param className string
---- @return InstanceInstance[]
-function InstanceInstance:GetChildrenOfClass(className) end
+--- @return InstanceOfInstance[]
+function InstanceOfInstance:GetChildrenOfClass(className) end
 
----@class DynamicInstance: InstanceInstance
+---@class DynamicInstance: InstanceOfInstance
 --- DynamicInstance is the base class where all objects with a position, rotation and scale derive from.
 --- This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.
 ---@field Forward Vector3

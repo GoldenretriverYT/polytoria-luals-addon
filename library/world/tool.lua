@@ -1,6 +1,6 @@
 ---@meta
 
----@class Tool: InstanceInstance
+---@class Tool: InstanceOfInstance
 --- Tools are objects that can be held by players.
 ---@field Droppable boolean Whether or not the tool can be dropped by the player.
 Tool = {}

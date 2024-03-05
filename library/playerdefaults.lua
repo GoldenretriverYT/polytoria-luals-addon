@@ -1,6 +1,6 @@
 ---@meta
 
----@class PlayerDefaults: InstanceInstance
+---@class PlayerDefaults: InstanceOfInstance
 --- PlayerDefaults is a service used for storing the default values of the  Player when created.
 ---@field ChatColor Color The default color of the player's chat messages.
 ---@field JumpPower number The default jump power of the player. (36)
@@ -12,7 +12,7 @@
 ---@field StaminaEnabled boolean Whether or not stamina is enabled for the player. (true)
 ---@field StaminaRegen number The default stamina regeneration rate of the player. (1.2)
 ---@field WalkSpeed number The default walk speed of the player. (16)
----@field ["Backpack"] InstanceInstance The default backpack of the player.
+---@field ["Backpack"] InstanceOfInstance The default backpack of the player.
 PlayerDefaults = {}
 
 --- Resets the specified player's properties to their default values.

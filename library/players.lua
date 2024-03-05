@@ -29,7 +29,7 @@ function ChatEvent:Connect(callback) end
     Players
 ]]
 
----@class Players: InstanceInstance
+---@class Players: InstanceOfInstance
 --- Players is the container class for all Player instances.
 ---@field LocalPlayer Player Returns the local player currently playing the game.
 ---@field PlayerCollisionEnabled boolean Whether or not player collisions are enabled.
