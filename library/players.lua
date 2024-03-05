@@ -66,26 +66,26 @@ function Players:GetPlayers() end
 ---@class Player: DynamicInstance
 ---Player is the class of the player and it's character controlled by it's player.
 ---@field CanMove boolean Whether or not the player can move.
----@field ChatColor Color The color of the player's chat messages.
----@field HeadColor Color The color of the player's head.
+---@field ChatColor Color__ The color of the player's chat messages.
+---@field HeadColor Color__ The color of the player's head.
 ---@field Health number The player's current health.
 ---@field IsAdmin boolean Specified whether a player is a Polytoria admin.
 ---@field IsCreator boolean Specifies whether or not the player is the creator of the game.
 ---@field IsInputFocused boolean Whether or not the player's input is focused on an input.
 ---@field JumpPower number The player's jump power.
----@field LeftArmColor Color The color of the player's left arm.
----@field LeftLegColor Color The color of the player's left leg.
+---@field LeftArmColor Color__ The color of the player's left arm.
+---@field LeftLegColor Color__ The color of the player's left leg.
 ---@field MaxHealth number The player's maximum health.
 ---@field MaxStamina number The player's maximum stamina.
 ---@field RespawnTime number The time it takes for the player to respawn after dying.
----@field RightArmColor Color The color of the player's right arm.
----@field RightLegColor Color The color of the player's right leg.
+---@field RightArmColor Color__ The color of the player's right arm.
+---@field RightLegColor Color__ The color of the player's right leg.
 ---@field SittingIn Seat The seat the player is currently sitting in.
 ---@field SprintSpeed number The player's sprint speed. (default 25)
 ---@field Stamina number The player's current stamina.
 ---@field StaminaEnabled boolean Whether or not the player's stamina is enabled.
 ---@field StaminaRegenSpeed number The player's stamina regeneration speed. (default 1.2)
----@field TorsoColor Color The color of the player's torso.
+---@field TorsoColor Color__ The color of the player's torso.
 ---@field UserID number The user ID of the player.
 ---@field WalkSpeed number The player's walk speed. (default 16)
 Player = {}

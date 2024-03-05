@@ -8,7 +8,7 @@
 ---@field Pitch number The pitch of the sound.
 ---@field PlayInWorld boolean Determines if the sound will play in 3D world, or if it will play at the same volume regardless of the player's position.
 ---@field Playing boolean Determines if the sound is currently playing.
----@field Size Vector3 Polytoria Docs has no information to this, probably the size for the 3D audio.
+---@field Size Vector3__ Polytoria Docs has no information to this, probably the size for the 3D audio.
 ---@field SoundID number The ID of the sound that the sound is using.
 ---@field Time number The current time position of the sound in seconds.
 ---@field Volume number The volume of the sound.

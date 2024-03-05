@@ -23,26 +23,26 @@ Input.KeyDown = nil
 ---@type KeyEvent
 Input.KeyUp = nil
 
----@param position Vector3
----@return Vector3
+---@param position Vector3__
+---@return Vector3__
 function Input:ScreenToViewportPoint(position) end
 
----@param position Vector3
----@return Vector3
+---@param position Vector3__
+---@return Vector3__
 function Input:ScreenToWorldPoint(position) end
 
----@param position Vector3
----@return Vector3
+---@param position Vector3__
+---@return Vector3__
 function Input:ViewportToScreenPoint(position) end
 
----@param position Vector3
----@return Vector3
+---@param position Vector3__
+---@return Vector3__
 function Input:ViewportToWorldPoint(position) end
 
----@param position Vector3
----@return Vector3
+---@param position Vector3__
+---@return Vector3__
 function Input:WorldToScreenPoint(position) end
 
----@param position Vector3
----@return Vector3
+---@param position Vector3__
+---@return Vector3__
 function Input:WorldToViewportPoint(position) end

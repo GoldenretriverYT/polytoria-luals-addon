@@ -10,9 +10,9 @@
 ---@field JustifyText TextJustify The justification of the text.
 ---@field MaxFontSize number The maximum size of the font if AutoSize is enabled.
 ---@field Placeholder string The placeholder text to display when the text input is empty.
----@field PlaceholderColor Color The color of the placeholder text.
+---@field PlaceholderColor Color__ The color of the placeholder text.
 ---@field Text string The text in the text input.
----@field TextColor Color The color of the text.
+---@field TextColor Color__ The color of the text.
 ---@field VerticalAlign TextVerticalAlign The vertical alignment of the text.
 UITextInput = {}
 

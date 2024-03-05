@@ -8,5 +8,5 @@
 ---@field JustifyText TextJustify The justification of the text.
 ---@field MaxFontSize number The maximum size of the font if AutoSize is enabled.
 ---@field Text string The text to display.
----@field TextColor Color The color of the text.
+---@field TextColor Color__ The color of the text.
 ---@field VerticalAlign TextVerticalAlign The vertical alignment of the text.

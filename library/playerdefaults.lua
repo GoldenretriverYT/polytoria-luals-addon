@@ -2,7 +2,7 @@
 
 ---@class PlayerDefaults: Instance__
 --- PlayerDefaults is a service used for storing the default values of the  Player when created.
----@field ChatColor Color The default color of the player's chat messages.
+---@field ChatColor Color__ The default color of the player's chat messages.
 ---@field JumpPower number The default jump power of the player. (36)
 ---@field MaxHealth number The default maximum health of the player. (100)
 ---@field MaxStamina number The default maximum stamina of the player. (3)

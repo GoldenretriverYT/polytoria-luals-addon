@@ -2,19 +2,19 @@
 
 ---@class NPC: DynamicInstance
 ---NPC (non-player character) is an object similar to a  Player but that can be controlled by code. Like players, it can walk and jump, and its body part colors can be customized.
----@field HeadColor Color The color of the NPC's head.
+---@field HeadColor Color__ The color of the NPC's head.
 ---@field Health number The NPC's current health.
----@field LeftArmColor Color The color of the NPC's left arm.
----@field LeftLegColor Color The color of the NPC's left leg.
+---@field LeftArmColor Color__ The color of the NPC's left arm.
+---@field LeftLegColor Color__ The color of the NPC's left leg.
 ---@field MaxHealth number The NPC's maximum health.
----@field RightArmColor Color The color of the NPC's right arm.
----@field RightLegColor Color The color of the NPC's right leg.
----@field TorsoColor Color The color of the NPC's torso.
+---@field RightArmColor Color__ The color of the NPC's right arm.
+---@field RightLegColor Color__ The color of the NPC's right leg.
+---@field TorsoColor Color__ The color of the NPC's torso.
 ---@field WalkSpeed number The NPC's walk speed. (default 16)
 ---@field FaceID number The ID of the face the NPC is using.
 ---@field Anchored boolean Whether or not the NPC is anchored.
 ---@field Grounded boolean Whether or not the NPC is touching the ground.
----@field MoveTarget Vector3 The position the NPC is moving towards.
+---@field MoveTarget Vector3__ The position the NPC is moving towards.
 ---@field ShirtID number The ID of the shirt the NPC is wearing.
 ---@field PantsID number The ID of the pants the NPC is wearing.
 NPC = {}

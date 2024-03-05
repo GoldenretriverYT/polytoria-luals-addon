@@ -104,21 +104,21 @@ function Instance__:GetChildrenOfClass(className) end
 ---@class DynamicInstance: Instance__
 --- DynamicInstance is the base class where all objects with a position, rotation and scale derive from.
 --- This object exists only to serve as a foundation for other objects. It cannot be accessed directly, but its properties are documented below.
----@field Forward Vector3
----@field LocalPosition Vector3 The position relative to the parent.
----@field LocalRotation Vector3 The rotation relative to the parent.
----@field LocalSize Vector3 The size relative to the parent.
----@field Position Vector3
----@field Rotation Vector3
----@field Size Vector3
----@field Up Vector3
----@field Right Vector3
+---@field Forward Vector3__
+---@field LocalPosition Vector3__ The position relative to the parent.
+---@field LocalRotation Vector3__ The rotation relative to the parent.
+---@field LocalSize Vector3__ The size relative to the parent.
+---@field Position Vector3__
+---@field Rotation Vector3__
+---@field Size Vector3__
+---@field Up Vector3__
+---@field Right Vector3__
 DynamicInstance = {}
 
 --- Rotates the DynamicInstance so that the forward vector looks at the target.
---- @param rotation Vector3
+--- @param rotation Vector3__
 function DynamicInstance:LookAt(rotation) end
 
 --- Moves the transform in the direction and distance of translation.
---- @param translation Vector3
+--- @param translation Vector3__
 function DynamicInstance:Translate(translation) end

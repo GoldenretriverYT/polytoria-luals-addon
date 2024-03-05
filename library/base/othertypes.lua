@@ -2,9 +2,9 @@
 
 ---@class RayResult
 ---@field Instance Instance__ The instance hit by the raycast.
----@field Position Vector3 The position the ray made contact at.
+---@field Position Vector3__ The position the ray made contact at.
 ---@field Distance number The distance between the hit and origin
----@field Normal Vector3 The normal of the surface hit.
+---@field Normal Vector3__ The normal of the surface hit.
 RayResult = {}
 
 ---@class NetMessage
@@ -66,22 +66,22 @@ function NetMessage:GetVector2(key) end
 
 ---Sets a key as a Vector3.
 ---@param key string
----@param Vector3 Vector3
+---@param Vector3 Vector3__
 function NetMessage:AddVector3(key, Vector3) end
 
 ---Gets the value of a Vector3 key.
 ---@param key string
----@return Vector3
+---@return Vector3__
 function NetMessage:GetVector3(key) end
 
 ---Sets a key as a Color.
 ---@param key string
----@param Color Color
+---@param Color Color__
 function NetMessage:AddColor(key, Color) end
 
 ---Gets the value of a Color key.
 ---@param key string
----@return Color
+---@return Color__
 function NetMessage:GetColor(key) end
 
 ---Sets a key as an Instance.
@@ -98,31 +98,38 @@ function NetMessage:GetInstance(key) end
 ---Color is a data type that represents a color.
 ---
 ---The alpha property is between 0 and 255. 0 is fully transparent and 255 is fully visible.
+Color = {}
+
+---@class Color__
+---Color is a data type that represents a color.
+---
+---The alpha property is between 0 and 255. 0 is fully transparent and 255 is fully visible.
+---Note: This is an instance of Color
 ---@field r number The red value of the color.
 ---@field g number The green value of the color.
 ---@field b number The blue value of the color.
 ---@field a number The alpha value of the color.
-Color = {}
+Color__ = {}
 
 ---Creates a new Color object.
----@overload fun(n: number): Color Creates a new Color with an R, G and B value of n and an alpha value of 255.
----@overload fun(r: number, g: number, b: number): Color Creates a new Color with an R, G and B value of r, g and b and an alpha value of 255.
----@overload fun(r: number, g: number, b: number, a: number): Color Creates a new Color with the set R, G, B and A values
----@return Color
-function Color:New() end
+---@overload fun(n: number): Color__ Creates a new Color with an R, G and B value of n and an alpha value of 255.
+---@overload fun(r: number, g: number, b: number): Color__ Creates a new Color with an R, G and B value of r, g and b and an alpha value of 255.
+---@overload fun(r: number, g: number, b: number, a: number): Color__ Creates a new Color with the set R, G, B and A values
+---@return Color__
+function Color.New() end
 
 ---Creates a new Color from the specified hex value.
 ---@param hex string
----@return Color
+---@return Color__
 function Color.FromHex(hex) end
 
 ---Returns a random color with a alpha value of 255.
----@return Color
+---@return Color__
 function Color.Random() end
 
 ---Linearly interpolates colors a and b by t.
----@param a Color
----@param b Color
+---@param a Color__
+---@param b Color__
 ---@param t number
----@return Color
+---@return Color__
 function Color.Lerp(a, b, t) end

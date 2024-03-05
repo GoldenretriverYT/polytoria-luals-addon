@@ -1,4 +1,4 @@
 ---@meta
 
 ---@class ColorValue: ValueBase
----@field Value Color
+---@field Value Color__

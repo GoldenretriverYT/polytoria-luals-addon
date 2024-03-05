@@ -18,7 +18,7 @@
 ---@field Mode CameraMode The mode of the camera.
 ---@field Orthographic boolean Whether the camera is in orthographic mode.
 ---@field OrthographicSize number The size of the camera when the camera is in orthographic mode.
----@field Position Vector3 The position of the camera, if in Scripted mode.
----@field Rotation Vector3 The rotation of the camera, if in Scripted mode.
+---@field Position Vector3__ The position of the camera, if in Scripted mode.
+---@field Rotation Vector3__ The rotation of the camera, if in Scripted mode.
 ---@field ScrollSensitivity number Determines the scroll speed of the camera.
 ---@field VerticalSpeed number The speed of the camera when the camera is in FollowPlayer mode.
