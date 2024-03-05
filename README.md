@@ -21,6 +21,14 @@ because `Part__` does not exist).
 
 In general: Ignore the double underscores, they are just to provide better hints to the language server.
 
+## Casting
+
+Since Lua is not a typed language, it is not possible to cast types within Lua. But you kinda need to! For example, `Instance__:FindChild` returns an `Instance__`, but you know it's a `Part__`. You can cast it by using the `as` annotation:
+
+```lua
+local part = myInstance:FindChild("MyPart") --[[@as Part]]
+```
+
 ## Credits
 
 Massive shoutout to the [contributors of the Polytoria Docs](https://docs.polytoria.com/contributors), most information was taken from there.

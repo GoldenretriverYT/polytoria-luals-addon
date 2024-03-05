@@ -13,7 +13,7 @@ Instance = {}
 ---@field ClassName string The name of the class this instance belongs to.
 ---@field Item Instance NOT DOCUMENTED -> Polytoria Docs are wrong. Original docs: Specifies the name of an instance.
 ---@field Name string Specifies the name of an instance.
----@field Parent Instance The parent of the instance.
+---@field Parent Instance__ The parent of the instance.
 ---@field Shared table An empty table you can use to hold metadata about anything on any object or player you want. Shared doesn't sync from the client to the server, or from the server to the client.
 Instance__ = {}
 
