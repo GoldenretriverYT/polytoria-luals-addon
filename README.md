@@ -16,6 +16,11 @@ If a type ends with double underscores, it just indicates its an instance of tha
 This does not affect your code, this is just to prevent recommendations from showing, for example, ".New" on a `Player` (.New is only valid on the static `Instance` type,
 and not on an instance of `Instance`).
 
+Note: Not every class has a double underscore type! So if a function wants you to pass a `Part`, you still should pass an instance (which should also have the `Part` type,
+because `Part__` does not exist).
+
+In general: Ignore the double underscores, they are just to provide better hints to the language server.
+
 ## Credits
 
 Massive shoutout to the [contributors of the Polytoria Docs](https://docs.polytoria.com/contributors), most information was taken from there.
