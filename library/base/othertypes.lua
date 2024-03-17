@@ -12,7 +12,7 @@ NetMessage = {}
 
 ---Creates a new NetMessage object.
 ---@return NetMessage
-function NetMessage:New() end
+function NetMessage.New() end
 
 ---Sets a key as a string.
 ---@param key string
