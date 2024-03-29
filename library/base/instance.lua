@@ -15,6 +15,7 @@ Instance = {}
 ---@field Name string Specifies the name of an instance.
 ---@field Parent Instance__ The parent of the instance.
 ---@field Shared table An empty table you can use to hold metadata about anything on any object or player you want. Shared doesn't sync from the client to the server, or from the server to the client.
+---@field [string] Instance__
 Instance__ = {}
 
 ---@type event
