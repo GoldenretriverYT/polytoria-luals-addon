@@ -42,4 +42,4 @@ function NetworkEvent:InvokeClient(netmsg, player) end
 ---
 --- Only available on the server.
 ---@param netmsg NetMessage
-function NetworkEvent:InvokeAllClients(netmsg) end
+function NetworkEvent:InvokeClients(netmsg) end
