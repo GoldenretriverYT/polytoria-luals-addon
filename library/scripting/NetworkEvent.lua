@@ -9,7 +9,7 @@ NetworkEventTypeDef = {}
 ---@param callback fun(sender: nil | Player, netmsg: NetMessage)
 function NetworkEventTypeDef:Connect(callback) end
 
----@class NetworkEvent: Instance
+---@class NetworkEvent: Instance__
 --- NetworkEvents are events that can be called to communicate between server and client.  NetMessage are the class used for sharing data between server and client when sending NetworkEvents.
 NetworkEvent = {}
 
