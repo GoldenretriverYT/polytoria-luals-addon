@@ -30,3 +30,7 @@ game.LocalInstanceCount = -1
 -- Returns the amount of players connected to the game.
 ---@type number
 game.PlayersConnected = -1
+
+-- GLOBAL: script
+---@type BaseScript
+script = nil
