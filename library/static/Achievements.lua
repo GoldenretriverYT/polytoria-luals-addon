@@ -20,4 +20,4 @@ function Achievements:Award(playerUserID, achievementID, callback) end
 ---@param playerUserID string The player's user ID.
 ---@param achievementID string The ID of the achievement to check.
 ---@param callback fun(awarded: boolean, error: string) A callback that is called when the operation is complete. The first argument is a boolean indicating whether the player has been awarded the achievement. The second argument is a string containing an error message if the operation was not successful.
-function Achievements:CheckAwarded(playerUserID, achievementID, callback) end
+function Achievements:HasAchievement(playerUserID, achievementID, callback) end
