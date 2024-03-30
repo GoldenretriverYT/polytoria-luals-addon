@@ -1,7 +1,7 @@
 ---@meta
 
----@enum TweenStyle
-TweenStyle = {
+---@enum TweenType
+TweenType = {
 	easeInBack = 0,
 	easeInBounce = 1,
 	easeInCirc = 2,
