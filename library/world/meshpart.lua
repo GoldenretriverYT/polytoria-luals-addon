@@ -20,3 +20,7 @@ function MeshPart:MovePosition(position) end
 --- Rotates the part to the specified rotation while keeping physics in mind.
 ---@param rotation Vector3__
 function MeshPart:MoveRotation(rotation) end
+
+---Plays the specified animation on the mesh.
+---@param animationName string
+function MeshPart:PlayAnimation(animationName) end

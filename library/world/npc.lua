@@ -17,6 +17,9 @@
 ---@field MoveTarget Vector3__ The position the NPC is moving towards.
 ---@field ShirtID number The ID of the shirt the NPC is wearing.
 ---@field PantsID number The ID of the pants the NPC is wearing.
+---@field NavDestinationDistance number The distance to the NPC's pathfinding destination. (read-only)
+---@field NavDestinationReached boolean Whether or not the NPC has reached its pathfinding destination. (read-only)
+---@field NavDestinationValid boolean Whether or not the NPC's pathfinding destination is valid. (read-only)
 NPC = {}
 
 ---@type event
@@ -29,3 +32,7 @@ function NPC:LoadAppearance(userId) end
 
 --- Clears the NPCs appareance. This will set their appareance to a gray avatar.
 function NPC:ClearAppearance() end
+
+--- Sets the NPC's pathfinding destination to the specified position.
+---@param destination Vector3__
+function NPC:SetNavDestination(destination) end
