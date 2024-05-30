@@ -12,3 +12,10 @@
 ---@field SoundID number The ID of the sound that the sound is using.
 ---@field Time number The current time position of the sound in seconds.
 ---@field Volume number The volume of the sound.
+Sound = {}
+
+---Plays the sound.
+function Sound:Play() end
+
+---Stops the sound.
+function Sound:Stop() end
