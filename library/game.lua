@@ -15,7 +15,7 @@ game.Rendered = nil
 
 -- The ID of the current Polytoria place.
 ---@type number
-game.GameId = -1
+game.GameID = -1
 
 -- The total number of instances currently loaded
 --
