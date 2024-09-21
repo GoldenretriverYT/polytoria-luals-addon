@@ -96,12 +96,12 @@ function Input:GetMouseButtonDown(mouseButton) end
 ---@return boolean
 function Input:GetMouseButtonUp(mouseButton) end
 
----@param position Vector3
+---@param position Vector2
 ---@param ignoreList? table
 ---@return RayResult
 function Input:ScreenPointToRay(position, ignoreList) end
 
----@param position Vector3
+---@param position Vector2
 ---@param ignoreList? table
 ---@return RayResult
 function Input:ViewportPointToRay(position, ignoreList) end
