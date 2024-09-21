@@ -16,8 +16,8 @@ function KeyEvent:Connect(callback) end
 ---@field AnyKey boolean Returns true if any key is being pressed.
 ---@field AnyKeyDown boolean Returns true if any new key presses happened during the current frame. Held down key presses from previous frames do not count.
 ---@field IsInputFocused boolean Determines whether or not the local player is currently focused on an input.
----@field ScreenWidth integer Returns the current screen's width.
----@field ScreenHeight integer Returns the current screen's height.
+---@field ScreenWidth number Returns the current screen's width.
+---@field ScreenHeight number Returns the current screen's height.
 Input = {}
 
 ---Fires when a key is pressed.
