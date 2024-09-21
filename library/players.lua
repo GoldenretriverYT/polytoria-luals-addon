@@ -88,6 +88,9 @@ function Players:GetPlayers() end
 ---@field TorsoColor Color__ The color of the player's torso.
 ---@field UserID number The user ID of the player.
 ---@field WalkSpeed number The player's walk speed. (default 16)
+---@field ShirtID integer Determines the ID of the shirt the player is wearing.
+---@field PantsID integer Determines the ID of the pants the player is wearing.
+---@field FaceID integer Determines the ID of the face the player is wearing.
 Player = {}
 
 ---@type ChatEvent
