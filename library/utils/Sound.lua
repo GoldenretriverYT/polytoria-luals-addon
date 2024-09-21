@@ -19,3 +19,7 @@ function Sound:Play() end
 
 ---Stops the sound.
 function Sound:Stop() end
+
+---Plays the sound once, able to be ran in rapid succession without stopping existing playback.
+---@param volume number The volume of the immediate playback.
+function Sound:PlayOneShot(volume) end
