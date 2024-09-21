@@ -133,3 +133,37 @@ function Color.Random() end
 ---@param t number
 ---@return Color__
 function Color.Lerp(a, b, t) end
+
+---@class ColorRange
+---ColorRange is a data type that represents a color range.
+---@field min Color__ The minimum color of the range.
+---@field max Color__ The maximum color of the range.
+ColorRange = {}
+
+---Creates a new `ColorRange` with the set min and max values.
+---@param min Color__ The minimum color of the range.
+---@param max Color__ The maximum color of the range.
+---@return ColorRange
+function ColorRange.New(min, max) end
+
+---Linearly interpolates colors `min` and `max` by `t`.
+---@param t number What to interpolate by.
+---@return Color__
+function ColorRange:Lerp(t) end
+
+---@class NumberRange
+---NumberRange is a data type that represents a number range.
+---@field min number The minimum number of the range.
+---@field max number The maximum number of the range.
+NumberRange = {}
+
+---Creates a new `NumberRange` with the set min and max values.
+---@param min number The minimum number of the range.
+---@param max number The maximum number of the range.
+---@return NumberRange
+function NumberRange.New(min, max) end
+
+---Linearly interpolates numbers `min` and `max` by `t`.
+---@param t number What to interpolate by.
+---@return number
+function NumberRange:Lerp(t) end

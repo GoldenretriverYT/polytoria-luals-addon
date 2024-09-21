@@ -10,7 +10,7 @@ Tween = {}
 --- @param time number The time in seconds the tween should take.
 --- @param callPerStep fun(value: Color__) A callback that is called every step of the tween with the current value.
 --- @param type TweenStyle The style of the tween.
---- @param callback fun() A callback that is called when the tween is complete.
+--- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenColor(startValue, endValue, time, callPerStep, type, callback) end
 
 --- Tween a number from a start value to an end value over a given time.
@@ -19,7 +19,7 @@ function Tween:TweenColor(startValue, endValue, time, callPerStep, type, callbac
 --- @param time number The time in seconds the tween should take.
 --- @param callPerStep fun(value: number) A callback that is called every step of the tween with the current value.
 --- @param type TweenStyle The style of the tween.
---- @param callback fun() A callback that is called when the tween is complete.
+--- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenNumber(startValue, endValue, time, callPerStep, type, callback) end
 
 --- Tween a position from a start value to an end value over a given time of a DynamicInstance.
@@ -27,7 +27,7 @@ function Tween:TweenNumber(startValue, endValue, time, callPerStep, type, callba
 --- @param destination Vector3__ The end value of the tween.
 --- @param time number The time in seconds the tween should take.
 --- @param type TweenStyle The style of the tween.
---- @param callback fun() A callback that is called when the tween is complete.
+--- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenPosition(target, destination, time, type, callback) end
 
 --- Tween a rotation from a start value to an end value over a given time of a DynamicInstance.
@@ -35,7 +35,7 @@ function Tween:TweenPosition(target, destination, time, type, callback) end
 --- @param destination Vector3__ The end value of the tween.
 --- @param time number The time in seconds the tween should take.
 --- @param type TweenStyle The style of the tween.
---- @param callback fun() A callback that is called when the tween is complete.
+--- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenRotation(target, destination, time, type, callback) end
 
 --- Tween the size from a start value to an end value over a given time of a DynamicInstance.
@@ -43,7 +43,7 @@ function Tween:TweenRotation(target, destination, time, type, callback) end
 --- @param destination Vector3__ The end value of the tween.
 --- @param time number The time in seconds the tween should take.
 --- @param type TweenStyle The style of the tween.
---- @param callback fun() A callback that is called when the tween is complete.
+--- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenSize(target, destination, time, type, callback) end
 
 --- Tween a Vector2 from a start value to an end value over a given time.
@@ -52,7 +52,7 @@ function Tween:TweenSize(target, destination, time, type, callback) end
 --- @param time number The time in seconds the tween should take.
 --- @param callPerStep fun(value: Vector2) A callback that is called every step of the tween with the current value.
 --- @param type TweenStyle The style of the tween.
---- @param callback fun() A callback that is called when the tween is complete.
+--- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenVector2(startValue, endValue, time, callPerStep, type, callback) end
 
 --- Tween a Vector3 from a start value to an end value over a given time.
@@ -61,5 +61,5 @@ function Tween:TweenVector2(startValue, endValue, time, callPerStep, type, callb
 --- @param time number The time in seconds the tween should take.
 --- @param callPerStep fun(value: Vector3__) A callback that is called every step of the tween with the current value.
 --- @param type TweenStyle The style of the tween.
---- @param callback fun() A callback that is called when the tween is complete.
+--- @param callback? fun() A callback that is called when the tween is complete.
 function Tween:TweenVector3(startValue, endValue, time, callPerStep, type, callback) end
